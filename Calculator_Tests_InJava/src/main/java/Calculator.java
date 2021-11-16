@@ -143,7 +143,8 @@ public class Calculator {
                 case 3:
                     System.out.println("01.05\n");
                     text3();// void function displays the content of the task
-                    double lambda_from_function,relability;
+                    double lambda_from_function;
+                    double relability;
                     System.out.println("Enter MTBF value (X):\n");
                     try {
                         mtbf = sc.nextDouble();
