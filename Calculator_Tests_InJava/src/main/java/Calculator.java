@@ -75,12 +75,16 @@ public class Calculator {
 
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int machines, allmachines;
+        int machines; 
+        int allmachines;
         int sum = 0; //variable counter for the sum of the time after which devices have failed.
 
 
         int b;// variable B is used to write user data into the array.  The array holds the values provided by the user.
-        double decimal_precentage , time, mtbf, lambda;
+        double decimal_precentage;
+        double time;
+        double mtbf;
+        double lambda;
 
         while(true){
             System.out.println("Select number task to calalte:\nX, Y, W, R, Z, Q ETC YOU MUST PROVIDE VALUES THAT MATCH YOUR VERSION OF THE TASK.\n");
